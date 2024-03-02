@@ -5,23 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
 </head>
 <body>
     <div class="container">
+        <div class="card">
+            <img src="img/fer.jpg" alt="">
+             <div class="card__content">
+              <p class="card__title">Fernando Aguiñaga</p>
+              <p class="card__description">Gamer, streamer & aprendíz en Desarrollo Web. Me gusta coleccionar videojuegos y mangas (especialmente de Pokémon). En 2023 pude visitar Japón, el cual fue uno de mis mayores sueños por muchos años!</p>
+              <img class="gifpika" src="img/pikapika.gif" alt="">
+            </div>
+          </div>
+
         <div class="contenedor-1">
-            <textarea class="textbox" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat eros arcu, non scelerisque ex rhoncus a. Nullam pharetra eros justo, eu sodales quam blandit ac."></textarea>
+       
+            <textarea class="textbox" placeholder="Introduce aquí tu texto"></textarea>
             <p class="disclaimer">Solo letras minúsculas y sin acentos</p>
-            <button class="button bg-morado">Encriptar</button>
-            <button class="button bg-azul">Desencriptar</button>
+            <button class="button bg-azul" onclick="encriptar()">Encriptar</button>
+            <button class="button bg-azul" onclick="desencriptar()">Desencriptar</button>
         </div>
 
         <div class="contenedor-2">
+            <img src="" alt="" class="img-box">
             <textarea class="textbox bg-blanco" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat eros arcu, non scelerisque ex rhoncus a. Nullam pharetra eros justo, eu sodales quam blandit ac."></textarea>
-            <button class="button bg-blanco">Copiar</button>
+            <button class="button bg-blanco" onclick="copiar()">Copiar</button>
         </div>
     </div>
 
+
+    <script src="/js/scripts.js"></script>
 </body>
 </html>
 
