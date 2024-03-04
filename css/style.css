@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #e0e5ff;
-  /* Azul claro */
 }
 
 
@@ -89,7 +88,7 @@ body {
 .contenedor-1 {
   width: 60%;
   background-color: #e0e5ff;
-  /* Mismo color que el fondo */
+
   padding: 20px;
   height: 400px;
   display: flex;
@@ -100,7 +99,6 @@ body {
 .contenedor-2 {
   width: 35%;
   background-color: #fff;
-  /* Blanco */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -132,7 +130,6 @@ body {
 .button {
 
   flex: auto;
-  /* Hacer que los botones ocupen el mismo espacio */
   padding: 10px;
   border: 1px solid #6a0dad;
   border-radius: 1rem;
@@ -148,13 +145,11 @@ body {
 
 .bg-azul {
   background-color: #e0e5ff;
-  /* Azul claro */
 }
 
 
 .button.bg-morado {
   background-color: #6a0dad;
-  /* Morado */
   color: #fff;
 }
 
